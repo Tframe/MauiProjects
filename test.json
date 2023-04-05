@@ -1,0 +1,326 @@
+{
+  "root": "n-root",
+  "nodes": {
+    "n-root": {
+      "type": "briefing",
+      "data": {
+        "storyTheme": "r-theme"
+      },
+      "children": ["n-briefing-ui"]
+    },
+    "n-briefing-ui": {
+      "type": "briefing-ui",
+      "children": [
+        "n-slide-0", 
+        "n-slide-1", 
+        "n-slide-2", 
+        "n-slide-3", 
+        "n-slide-4", 
+        "n-slide-5", 
+        "n-slide-6",
+        "n-slide-7",
+        "n-slide-8" 
+      ]
+    },
+    "n-slide-0": {
+      "type": "briefing-slide",
+      "data": {
+        "layout": "cover"
+      },
+      "children": ["n-cover"]
+    },
+    "n-slide-1": {
+      "type": "briefing-slide",
+      "data": {
+        "layout": "single",
+        "title": "n-text-title-1",
+        "contents": {} 
+      }
+    },
+    "n-slide-2": {
+      "type": "briefing-slide",
+      "data": {
+        "layout": "single",
+        "title": "n-text-title-2",
+        "contents": { "0": "n-webmap" }
+      }
+    },
+    "n-slide-3": {
+      "type": "briefing-slide",
+      "data": {
+        "layout": "single",
+        "title": "n-text-title-3",
+        "contents": { "0": ["n-text-1", "n-text-2"] }
+      }
+    },
+    "n-slide-4": {
+      "type": "briefing-slide",
+      "data": {
+        "layout": "double",
+        "title": "n-text-title-4",
+        "contents": {}
+      }
+    },
+    "n-slide-5": {
+      "type": "briefing-slide",
+      "data": {
+        "layout": "double",
+        "title": "n-text-title-5",
+        "contents": {
+          "0": ["n-text-3", "n-image-2"],
+          "1": "n-image"
+        }
+      }
+    },
+    "n-slide-6": {
+      "type": "briefing-slide",
+      "data": {
+        "layout": "double",
+        "contents": {
+          "1": "n-image"
+        }
+      }
+    },
+    "n-slide-7": {
+        "type": "briefing-slide",
+        "data": {
+          "layout": "single",
+          "contents": {
+            "1": "n-video"
+          }
+        }
+      },
+    "n-slide-8": {
+        "type": "briefing-slide",
+        "data": {
+            "layout": "double",
+            "contents": {
+            "0": "n-video-1",
+            "1": "n-image-1"
+            }
+        }
+    },
+    "n-cover": {
+      "type": "storycover",
+      "data": {
+        "type": "sidebyside",
+        "title": "Briefing",
+        "summary": "",
+        "byline": "Brave Briefer",
+        "titlePanelPosition": "start"
+      }
+    },
+    "n-text-title-1": {
+      "type": "text",
+      "data": {
+        "text": "<span class=\"sm-text-color-4c0fea\">Blue Header</span> <sub>Lower Subscript</sub> <sup>Upper Superscript</sup>",
+        "type": "h3"
+      }
+    },
+    "n-text-title-2": {
+      "type": "text",
+      "data": {
+        "text": "Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>Adding a Text Component right after Heading. <strong>THIS IS BOLD. </strong><em><strong>This is italicized and bold.  </strong></em><span class=\"sm-text-color-ff0000\">This is RED. </span>",
+        "type": "h3"
+      }
+    },
+    "n-text-title-3": {
+      "type": "text",
+      "data": {
+        "text": "<a href=\"https://www.google.com\" rel=\"noopener noreferrer\" target=\"_blank\">Link Here</a>",
+        "type": "paragraph"
+      }
+    },
+    "n-text-title-4": {
+      "type": "text",
+      "data": {
+        "text": "Slide title #4",
+        "type": "h3"
+      }
+    },
+    "n-text-title-5": {
+      "type": "text",
+      "data": {
+        "text": "Slide title #4",
+        "type": "h3"
+      }
+    },
+    "n-text-1": {
+      "type": "text",
+      "data": {
+        "text": "This is text block #1",
+        "type": "paragraph"
+      }
+    },
+    "n-text-2": {
+      "type": "text",
+      "data": {
+        "text": "LARGE PARAGRAPH. THAT CAN GO ON FOOOOOOORRRRREEEEEVVVVVVVVEEEEEERR.... LARGE PARAGRAPH. THAT CAN GO ON FOOOOOOORRRRREEEEEVVVVVVVVEEEEEERR.... LARGE PARAGRAPH. THAT CAN GO ON FOOOOOOORRRRREEEEEVVVVVVVVEEEEEERR.... LARGE PARAGRAPH. THAT CAN GO ON FOOOOOOORRRRREEEEEVVVVVVVVEEEEEERR....",
+        "type": "large-paragraph"
+      }
+    },
+    "n-text-3": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-text-4": {
+      "type": "image",
+      "data": {"image": "r-image-2" }
+    },
+    "n-image": {
+      "type": "image",
+      "data": { "image": "r-image" }
+    },
+    "n-image-1": {
+        "type": "image",
+        "data": { "image": "r-47Vtx3" }
+      },
+    "n-video": {
+        "type":"video",
+        "data": {"video": "r-4vd0na"}
+    },
+    "n-video-1": {
+        "type":"video",
+        "data": {"video": "r-bUdg9Y"}
+    },
+    "n-webmap": {
+      "type": "webmap",
+      "config": { "size": "standard" },
+      "data": {
+        "map": "r-4324236c769f4779898534852016f1c6",
+        "caption": "earthquake - single layer",
+        "timeSlider": false,
+        "extent": {
+          "spatialReference": {
+            "latestWkid": 3857,
+            "wkid": 102100
+          },
+          "xmin": -14185336.35203911,
+          "ymin": 3714895.287096775,
+          "xmax": -12430342.182611931,
+          "ymax": 4701850.196314708
+        },
+        "center": {
+          "spatialReference": {
+            "latestWkid": 3857,
+            "wkid": 102100
+          },
+          "x": -13307839.26732552,
+          "y": 4208372.741705742
+        },
+        "zoom": 6,
+        "viewpoint": {
+          "rotation": 0,
+          "scale": 4622324.434309,
+          "targetGeometry": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "x": -13307839.26732552,
+            "y": 4208372.741705742
+          }
+        }
+      }
+    }
+  },
+  "resources": {
+    "r-image": {
+      "type": "image",
+      "data": {
+        "height": 480,
+        "provider": "uri",
+        "src": "http://via.placeholder.com/720x480.png?text=Briefing+Image",
+        "width": 720
+      }
+    },
+    "r-image-2": {
+        "type": "image",
+        "data": {
+            "resourceId": "kxfpCqn0l2VpE4YtpwxFl.png",
+            "provider": "item-resource",
+            "height": 626,
+            "width": 1045
+        }
+      },
+    "r-4324236c769f4779898534852016f1c6": {
+      "type": "webmap",
+      "data": {
+        "extent": {
+          "spatialReference": {
+            "latestWkid": 3857,
+            "wkid": 102100
+          },
+          "xmin": -14797315.087061407,
+          "ymin": 3062906.5450814646,
+          "xmax": -11287326.748207046,
+          "ymax": 5036816.363517332
+        },
+        "center": {
+          "spatialReference": {
+            "latestWkid": 3857,
+            "wkid": 102100
+          },
+          "x": -13042320.917634226,
+          "y": 4049861.454299398
+        },
+        "zoom": 5,
+        "viewpoint": {
+          "rotation": 0,
+          "scale": 9244648.868618,
+          "targetGeometry": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "x": -13042320.917634226,
+            "y": 4049861.454299398
+          }
+        },
+        "mapLayers": [
+          {
+            "id": "earthquake_3168",
+            "title": "earthquake",
+            "visible": true
+          }
+        ],
+        "itemId": "4324236c769f4779898534852016f1c6",
+        "itemType": "Web Map",
+        "type": "default"
+      }
+    },
+    "r-4vd0na": {
+        "type": "video",
+        "data": {
+        "resourceId": "DPIAYyNqysue75agFs_HA.mp4",
+        "provider": "item-resource"
+        }
+    },
+    "r-47Vtx3": {
+        "type": "image",
+        "data": {
+        "resourceId": "Q5rmiChkEHfVYt6-OcLo8.jpeg",
+        "provider": "item-resource",
+        "height": 720,
+        "width": 1280
+        }
+    },
+    "r-bUdg9Y": {
+        "type": "video",
+        "data": {
+        "resourceId": "tZZ-psyZnVmO41MxxDjZ_.mp4",
+        "provider": "item-resource"
+        }
+    },
+    "r-theme": {
+      "type": "story-theme",
+      "data": {
+        "themeId": "obsidian",
+        "themeBaseVariableOverrides": {}
+      }
+    }
+  }
+}
